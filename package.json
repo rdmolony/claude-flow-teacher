@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.89",
+    "claude-flow": "file:claude-flow"
+  }
+}
