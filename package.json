@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@anthropic-ai/claude-code": "^1.0.89",
-    "claude-flow": "file:ruvnet-claude-flow"
-  }
-}
