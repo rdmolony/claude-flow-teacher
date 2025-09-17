@@ -17,3 +17,6 @@ git submodule update --init --recursive
 
 > [!NOTE]
 > This repository uses `git` submodules to sync with external repositories which must be manually fetched after cloning this repository
+
+> [!TIP]
+> I can avoid this step by passing flag `--recurse-submodules` to `git clone` like `git clone --recurse-submodules <my-repo>`
