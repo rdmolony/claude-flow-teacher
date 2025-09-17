@@ -1,7 +1,19 @@
 ## Install
 
-I run this on [`GitHub Codespaces`](https://docs.github.com/en/codespaces)
+- Install `claude-code`
 
-I've setup https://github.com/rdmolony/my-codespace-dotfiles to automatically install `claude-code` on initial startup & add some aliases for useful commands
+```sh
+npm install -g @anthropic-ai/claude-code
+```
 
-If you haven't set this up yet, you can copy/paste [my dotfile script](https://github.com/rdmolony/my-codespace-dotfiles/blob/097bc3759ea267af6f7e61373a1a5fdde717c0e3/install.sh) into your terminal to replicate it
+> [!TIP]
+> I run this on [`GitHub Codespaces`](https://docs.github.com/en/codespaces) which I connected to https://github.com/rdmolony/my-codespace-dotfiles to automatically install `claude-code` on initial startup & add some aliases for useful commands
+
+- Fetch submodules
+
+```bash
+git submodule update --init --recursive
+```
+
+> [!NOTE]
+> This repository uses `git` submodules to sync with external repositories which must be manually fetched after cloning this repository
